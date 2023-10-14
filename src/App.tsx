@@ -18,17 +18,26 @@ function App() {
       <BrowserRouter>
         <Navigation />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/charter" element={<Charter />} />
-          <Route path="/mission" element={<Mission />} />
-          <Route path="/milestones" element={<Milestones />} />
-          <Route path="/news" element={<News />} />
+          <Route path="/ipv6-forum-webpage/" element={<Home />} />
+          <Route path="/ipv6-forum-webpage/charter" element={<Charter />} />
+          <Route path="/ipv6-forum-webpage/mission" element={<Mission />} />
           <Route
-            path="/eventsAndPromotions"
+            path="/ipv6-forum-webpage/milestones"
+            element={<Milestones />}
+          />
+          <Route path="/ipv6-forum-webpage/news" element={<News />} />
+          <Route
+            path="/ipv6-forum-webpage/eventsAndPromotions"
             element={<EventsAndPromotions />}
           />
-          <Route path="/affliates" element={<Affiliates />} />
-          <Route path="/zoomWithExperts" element={<ZoomWithTheExperts />} />
+          <Route
+            path="/ipv6-forum-webpage/affliates"
+            element={<Affiliates />}
+          />
+          <Route
+            path="/ipv6-forum-webpage/zoomWithExperts"
+            element={<ZoomWithTheExperts />}
+          />
           {/* <Route path="*" element={<NoPage />} />  */}
         </Routes>
       </BrowserRouter>

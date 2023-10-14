@@ -44,44 +44,56 @@ function Navigation() {
                   isOpen ? 'hidden' : 'block'
                 }`}
               >
-                <Link to="/" className="text-white hover:text-gray-300">
+                <Link
+                  to="/ipv6-forum-webpage/"
+                  className="text-white hover:text-gray-300"
+                >
                   {' '}
                   Our Home
                 </Link>
-                <Link to="/charter" className="text-white hover:text-gray-300">
+                <Link
+                  to="/ipv6-forum-webpage/charter"
+                  className="text-white hover:text-gray-300"
+                >
                   {' '}
                   The Charter{' '}
                 </Link>
-                <Link to="/mission" className="text-white hover:text-gray-300">
+                <Link
+                  to="/ipv6-forum-webpage/mission"
+                  className="text-white hover:text-gray-300"
+                >
                   {' '}
                   Our Mission{' '}
                 </Link>
                 <Link
-                  to="/milestones"
+                  to="/ipv6-forum-webpage/milestones"
                   className="text-white hover:text-gray-300"
                 >
                   {' '}
                   The Milestones{' '}
                 </Link>
-                <Link to="/news" className="text-white hover:text-gray-300">
+                <Link
+                  to="/ipv6-forum-webpage/news"
+                  className="text-white hover:text-gray-300"
+                >
                   {' '}
                   News{' '}
                 </Link>
                 <Link
-                  to="/eventsAndPromotions"
+                  to="/ipv6-forum-webpage/eventsAndPromotions"
                   className="text-white hover:text-gray-300"
                 >
                   Events & Promotions
                 </Link>
                 <Link
-                  to="/affliates"
+                  to="/ipv6-forum-webpage/affliates"
                   className="text-white hover:text-gray-300"
                 >
                   {' '}
                   Affiliates{' '}
                 </Link>
                 <Link
-                  to="/zoomWithExperts"
+                  to="/ipv6-forum-webpage/zoomWithExperts"
                   className="text-white hover:text-gray-300"
                 >
                   Zoom with the Experts
@@ -136,55 +148,55 @@ function Navigation() {
                 <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                   <div className="">
                     <Link
-                      to="/"
+                      to="/ipv6-forum-webpage/"
                       className="text-white hover:text-gray-300 block text-center"
                     >
                       {' '}
                       Our Home
                     </Link>
                     <Link
-                      to="/charter"
+                      to="/ipv6-forum-webpage/charter"
                       className="text-white hover:text-gray-300 block text-center"
                     >
                       {' '}
                       The Charter{' '}
                     </Link>
                     <Link
-                      to="/mission"
+                      to="/ipv6-forum-webpage/mission"
                       className="text-white hover:text-gray-300 block text-center"
                     >
                       {' '}
                       Our Mission{' '}
                     </Link>
                     <Link
-                      to="/milestones"
+                      to="/ipv6-forum-webpage/milestones"
                       className="text-white hover:text-gray-300 block text-center"
                     >
                       {' '}
                       The Milestones{' '}
                     </Link>
                     <Link
-                      to="/news"
+                      to="/ipv6-forum-webpage/news"
                       className="text-white hover:text-gray-300 block text-center"
                     >
                       {' '}
                       News{' '}
                     </Link>
                     <Link
-                      to="/eventsAndPromotions"
+                      to="/ipv6-forum-webpage/eventsAndPromotions"
                       className="text-white hover:text-gray-300 block text-center"
                     >
                       Events & Promotions
                     </Link>
                     <Link
-                      to="/affliates"
+                      to="/ipv6-forum-webpage/affliates"
                       className="text-white hover:text-gray-300 block text-center"
                     >
                       {' '}
                       Affiliates{' '}
                     </Link>
                     <Link
-                      to="/zoomWithExperts"
+                      to="/ipv6-forum-webpage/zoomWithExperts"
                       className="text-white hover:text-gray-300 block text-center"
                     >
                       Zoom with the Experts

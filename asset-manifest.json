@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/ipv6-forum-webpage/static/css/main.fba26c82.css",
-    "main.js": "/ipv6-forum-webpage/static/js/main.452d3770.js",
+    "main.css": "/ipv6-forum-webpage/static/css/main.2ac35a88.css",
+    "main.js": "/ipv6-forum-webpage/static/js/main.e93bb168.js",
     "static/js/787.8decc0e6.chunk.js": "/ipv6-forum-webpage/static/js/787.8decc0e6.chunk.js",
+    "static/media/ipv6Phillogo.png": "/ipv6-forum-webpage/static/media/ipv6Phillogo.64655e444c6dd2b2f0ef.png",
+    "static/media/ipv6-global-logo.gif": "/ipv6-forum-webpage/static/media/ipv6-global-logo.6e3d95d9431029151d05.gif",
     "index.html": "/ipv6-forum-webpage/index.html",
-    "main.fba26c82.css.map": "/ipv6-forum-webpage/static/css/main.fba26c82.css.map",
-    "main.452d3770.js.map": "/ipv6-forum-webpage/static/js/main.452d3770.js.map",
+    "main.2ac35a88.css.map": "/ipv6-forum-webpage/static/css/main.2ac35a88.css.map",
+    "main.e93bb168.js.map": "/ipv6-forum-webpage/static/js/main.e93bb168.js.map",
     "787.8decc0e6.chunk.js.map": "/ipv6-forum-webpage/static/js/787.8decc0e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fba26c82.css",
-    "static/js/main.452d3770.js"
+    "static/css/main.2ac35a88.css",
+    "static/js/main.e93bb168.js"
   ]
 }

@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
+import ipv6PhilLogo from '../../assets/images/ipv6Phillogo.png';
+import ipv6GlobalLogo from '../../assets/images/ipv6-global-logo.gif';
+import { Link } from 'react-router-dom';
 
-const Navigation = () => {
+function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -14,7 +17,7 @@ const Navigation = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center justify-start">
               <img
-                src="ipv6Phillogo.png"
+                src={ipv6PhilLogo}
                 alt="Philippine IPv6 Council Logo"
                 width="85"
               />
@@ -24,7 +27,7 @@ const Navigation = () => {
             </div>
             <div>
               <img
-                src="ipv6-global-logo.gif"
+                src={ipv6GlobalLogo}
                 alt="Global IPv6 Forum Logo"
                 width="85"
               />
@@ -41,30 +44,48 @@ const Navigation = () => {
                   isOpen ? 'hidden' : 'block'
                 }`}
               >
-                <a href="/" className="text-white hover:text-gray-300">
+                <Link to="/" className="text-white hover:text-gray-300">
+                  {' '}
                   Our Home
-                </a>
-                <a href="/about" className="text-white hover:text-gray-300">
-                  The Charter
-                </a>
-                <a href="/services" className="text-white hover:text-gray-300">
-                  Our Mission
-                </a>
-                <a href="/contact" className="text-white hover:text-gray-300">
-                  The Milestones
-                </a>
-                <a href="/contact" className="text-white hover:text-gray-300">
-                  News
-                </a>
-                <a href="/contact" className="text-white hover:text-gray-300">
+                </Link>
+                <Link to="/charter" className="text-white hover:text-gray-300">
+                  {' '}
+                  The Charter{' '}
+                </Link>
+                <Link to="/mission" className="text-white hover:text-gray-300">
+                  {' '}
+                  Our Mission{' '}
+                </Link>
+                <Link
+                  to="/milestones"
+                  className="text-white hover:text-gray-300"
+                >
+                  {' '}
+                  The Milestones{' '}
+                </Link>
+                <Link to="/news" className="text-white hover:text-gray-300">
+                  {' '}
+                  News{' '}
+                </Link>
+                <Link
+                  to="/eventsAndPromotions"
+                  className="text-white hover:text-gray-300"
+                >
                   Events & Promotions
-                </a>
-                <a href="/contact" className="text-white hover:text-gray-300">
-                  Affiliates
-                </a>
-                <a href="/contact" className="text-white hover:text-gray-300">
+                </Link>
+                <Link
+                  to="/affliates"
+                  className="text-white hover:text-gray-300"
+                >
+                  {' '}
+                  Affiliates{' '}
+                </Link>
+                <Link
+                  to="/zoomWithExperts"
+                  className="text-white hover:text-gray-300"
+                >
                   Zoom with the Experts
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -114,30 +135,60 @@ const Navigation = () => {
               <div className="md:hidden">
                 <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                   <div className="">
-                    <a
-                      href="/"
-                      className="text-white block hover:text-gray-300"
+                    <Link
+                      to="/"
+                      className="text-white hover:text-gray-300 block text-center"
                     >
-                      Home
-                    </a>
-                    <a
-                      href="/about"
-                      className="text-white block hover:text-gray-300"
+                      {' '}
+                      Our Home
+                    </Link>
+                    <Link
+                      to="/charter"
+                      className="text-white hover:text-gray-300 block text-center"
                     >
-                      About
-                    </a>
-                    <a
-                      href="/services"
-                      className="text-white block hover:text-gray-300"
+                      {' '}
+                      The Charter{' '}
+                    </Link>
+                    <Link
+                      to="/mission"
+                      className="text-white hover:text-gray-300 block text-center"
                     >
-                      Services
-                    </a>
-                    <a
-                      href="/contact"
-                      className="text-white block hover:text-gray-300"
+                      {' '}
+                      Our Mission{' '}
+                    </Link>
+                    <Link
+                      to="/milestones"
+                      className="text-white hover:text-gray-300 block text-center"
                     >
-                      Contact
-                    </a>
+                      {' '}
+                      The Milestones{' '}
+                    </Link>
+                    <Link
+                      to="/news"
+                      className="text-white hover:text-gray-300 block text-center"
+                    >
+                      {' '}
+                      News{' '}
+                    </Link>
+                    <Link
+                      to="/eventsAndPromotions"
+                      className="text-white hover:text-gray-300 block text-center"
+                    >
+                      Events & Promotions
+                    </Link>
+                    <Link
+                      to="/affliates"
+                      className="text-white hover:text-gray-300 block text-center"
+                    >
+                      {' '}
+                      Affiliates{' '}
+                    </Link>
+                    <Link
+                      to="/zoomWithExperts"
+                      className="text-white hover:text-gray-300 block text-center"
+                    >
+                      Zoom with the Experts
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -147,6 +198,6 @@ const Navigation = () => {
       </div>
     </>
   );
-};
+}
 
 export default Navigation;

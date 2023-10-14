@@ -1,6 +1,5 @@
 {
   "homepage": "https://eugeneravina.github.io/ipv6-forum-webpage",
-  "$schema": "./node_modules/@json-schema-org/package/package.json",
   "name": "ipv6-forum-webpage",
   "version": "0.1.0",
   "private": true,

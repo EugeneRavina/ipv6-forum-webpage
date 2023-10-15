@@ -17,8 +17,16 @@ function Affiliates() {
             the IPv6 Forum and staged in various locations around the world to
             provide industry and market with the best available information on
             this rapidly advancing technology. For further details, please visit
-            http://www.ipv6forum.com
+            <a
+              href="http://www.ipv6forum.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 ml-1"
+            >
+              IPv6Forum Website
+            </a>
           </p>
+          {/* create a link to the ipv6forum.com that open in a new tag */}
         </div>
       </div>
     </div>

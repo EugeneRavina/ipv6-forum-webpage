@@ -4,8 +4,10 @@ interface IProps {
 
 function Header(props: IProps) {
   return (
-    <div>
-      <h1 className="text-2xl font-bold">{props.title}</h1>
+    <div className="bg-sky-800">
+      <h1 className="text-2xl font-bold text-left text-white p-4">
+        {props.title}
+      </h1>
     </div>
   );
 }

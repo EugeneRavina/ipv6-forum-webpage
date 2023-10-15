@@ -150,6 +150,7 @@ function Navigation() {
                     <Link
                       to="/ipv6-forum-webpage/"
                       className="text-white hover:text-gray-300 block text-center"
+                      onClick={toggleMenu}
                     >
                       {' '}
                       Our Home
@@ -157,6 +158,7 @@ function Navigation() {
                     <Link
                       to="/ipv6-forum-webpage/charter"
                       className="text-white hover:text-gray-300 block text-center"
+                      onClick={toggleMenu}
                     >
                       {' '}
                       The Charter{' '}
@@ -164,6 +166,7 @@ function Navigation() {
                     <Link
                       to="/ipv6-forum-webpage/mission"
                       className="text-white hover:text-gray-300 block text-center"
+                      onClick={toggleMenu}
                     >
                       {' '}
                       Our Mission{' '}
@@ -171,6 +174,7 @@ function Navigation() {
                     <Link
                       to="/ipv6-forum-webpage/milestones"
                       className="text-white hover:text-gray-300 block text-center"
+                      onClick={toggleMenu}
                     >
                       {' '}
                       The Milestones{' '}
@@ -178,6 +182,7 @@ function Navigation() {
                     <Link
                       to="/ipv6-forum-webpage/news"
                       className="text-white hover:text-gray-300 block text-center"
+                      onClick={toggleMenu}
                     >
                       {' '}
                       News{' '}
@@ -185,12 +190,14 @@ function Navigation() {
                     <Link
                       to="/ipv6-forum-webpage/eventsAndPromotions"
                       className="text-white hover:text-gray-300 block text-center"
+                      onClick={toggleMenu}
                     >
                       Events & Promotions
                     </Link>
                     <Link
                       to="/ipv6-forum-webpage/affliates"
                       className="text-white hover:text-gray-300 block text-center"
+                      onClick={toggleMenu}
                     >
                       {' '}
                       Affiliates{' '}
@@ -198,6 +205,7 @@ function Navigation() {
                     <Link
                       to="/ipv6-forum-webpage/zoomWithExperts"
                       className="text-white hover:text-gray-300 block text-center"
+                      onClick={toggleMenu}
                     >
                       Zoom with the Experts
                     </Link>
